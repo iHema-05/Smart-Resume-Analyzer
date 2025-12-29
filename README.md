@@ -1,0 +1,17 @@
+# Smart Resume Analyzer
+
+A web-based application that analyzes resumes against job descriptions
+and calculates skill match percentage.
+
+## Features
+- Upload resume and job description (PDF / Word)
+- Text extraction using PDF.js and Mammoth.js
+- Skill match percentage calculation
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+
+## How to Run
+Open index.html using Live Server.

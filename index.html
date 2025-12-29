@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PDF.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+    <!-- Mammoth.js for DOCX -->
+    <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Smart Resume Analyzer</h1>
+    <p class="subtitle">Upload Resume & Job Description (PDF or Word)</p>
+
+    <div class="field">
+        <label>Upload Resume (.pdf / .docx)</label>
+        <input type="file" id="resumeFile" accept=".pdf,.docx">
+    </div>
+
+    <div class="field">
+        <label>Upload Job Description (.pdf / .docx)</label>
+        <input type="file" id="jdFile" accept=".pdf,.docx">
+    </div>
+
+    <button onclick="analyzeFiles()">Analyze</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
