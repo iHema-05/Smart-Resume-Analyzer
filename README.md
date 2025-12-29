@@ -2,6 +2,10 @@
 
 A web-based application that analyzes resumes against job descriptions
 and calculates skill match percentage.
+## Project Preview
+
+![Smart Resume Analyzer Screenshot](screenshot.png)
+
 
 ## Features
 - Upload resume and job description (PDF / Word)
